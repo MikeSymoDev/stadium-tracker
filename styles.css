@@ -1,0 +1,32 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: min(66.666%, 900px);
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1 {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
