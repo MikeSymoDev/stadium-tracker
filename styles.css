@@ -1,17 +1,51 @@
+/* ============================================
+   ELEMENTS
+   ============================================ */
+
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+main {
+    flex: 1;
     margin-left: auto;
     margin-right: auto;
     max-width: min(66.666%, 900px);
     padding-left: 2rem;
     padding-right: 2rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+
+footer {
+    background:darkgreen;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    margin-top: 5rem; 
 }
 
 
 h1 {
     color: darkgreen;
     font-weight: bold;
-    font-size: 5rem;
+    font-size: 6rem;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 a {
@@ -24,9 +58,24 @@ a:hover {
     color: darkgreen;
 }
 
+p {
+    font-size: 1.5rem;
+}
+
+
+/* ============================================
+   CLASS
+   ============================================ */
+
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+}
+
+.intro {
+    margin-bottom: 5rem;
 }
