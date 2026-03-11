@@ -79,3 +79,9 @@ p {
 .intro {
     margin-bottom: 5rem;
 }
+
+
+hr.rounded {
+  border-top: 8px solid darkgreen;
+  border-radius: 5px;
+}
