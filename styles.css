@@ -2,12 +2,18 @@
    ELEMENTS
    ============================================ */
 
+:root {
+  --card: #ffffff;
+  --line: #d9d2c8;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
+    background: linear-gradient(160deg, #eff7ea 0%, #19e46d 100%);
 }
 
 
@@ -68,6 +74,15 @@ p {
    ============================================ */
 
 
+.card {
+  background: var(--card);
+  border-radius: 20px;
+  padding: 1.6rem;
+  border: 1px solid var(--line);
+  box-shadow: 0 12px 24px rgba(17, 19, 19, 0.08);
+}
+
+
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -84,4 +99,5 @@ p {
 hr.rounded {
   border-top: 8px solid darkgreen;
   border-radius: 5px;
+  margin: 3rem 1rem
 }
